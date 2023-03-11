@@ -1,0 +1,208 @@
+ /* Login Register */
+	.logo-register{
+		min-height: 680px;
+	}
+	.logo-login{
+		min-height: 400px;
+	}
+	.logo-lupapassword{
+		min-height: 270px;
+	}
+/* End Login Register */
+
+/* Home */
+	.cover-top{
+		border-radius: 20px;
+	}
+	@media screen and (max-width: 767px){
+		.banner-top img{
+			height: 180px;
+			border-radius: 10px;
+			margin: 20px auto;
+		}
+	}
+	@media screen and (min-width: 768px) and (max-width: 1020px){
+		.banner-top img{
+			height: 350px;
+			border-radius: 10px;
+			margin: 30px auto;
+		}
+		.flash-sale-2 img{
+			height: 95px;
+			border-radius: 10px;
+		}
+		.flash-sale-2 img:first-child{
+			margin-bottom: 5px;
+			margin-top: 30px;
+		}
+		.flash-sale-2 img:last-child{
+			margin-top: 5px;
+			margin-bottom: 30px;
+		}
+	}	
+	@media screen and (min-width: 1021px){
+		.banner-top img{
+			height: 500px;
+			border-radius: 10px;
+			margin: 30px auto;
+		}
+		.flash-sale-2 img{
+			height: 120px;
+			border-radius: 10px;
+		}
+		.flash-sale-2 img:first-child{
+			margin-bottom: 5px;
+			margin-top: 30px;
+		}
+		.flash-sale-2 img:last-child{
+			margin-top: 5px;
+			margin-bottom: 30px;
+		}
+	}
+	@media screen and (max-width: 567px){
+		.card-filter, .card-terlaris{
+			width: calc(100%);
+			margin-bottom: 10px;
+		}
+		.card-filter h6.card-title, .card-terlaris h6.card-title{
+			font-size: 100%;
+			font-weight: bold;
+		}
+		.card-filter .textpromo, .card-terlaris .textpromo{
+			font-size: 90%;
+		}
+		.card-filter h6.card-title, .card-terlaris h6.card-title{
+			font-size: 60%;
+			font-weight: bold;
+		}
+		.card-filter .textpromo, .card-terlaris .textpromo{
+			font-size: 70%;
+		}
+		#content{
+    		padding-top: 250px;
+    	}
+    	.card-filter, .card-terlaris{
+			width: calc(100%/2);
+		}
+		.card-filter .card, .card-terlaris .card{
+			height: 300px;
+			overflow: hidden;
+		}
+		.card a{
+			position: absolute;
+			bottom: 5%;
+			left: 5%;
+			width: 90%;
+			right: 5%;
+		}
+		.card-img-top{
+			height: 90px;
+		}
+	}
+	@media screen and (min-width: 568px) and (max-width: 992px){
+		h6.card-title{
+			font-size: 80%;
+			font-weight: bold;
+		}
+		.textpromo{
+			font-size: 80%;
+		}
+		#content{
+    		padding-top: 150px;
+    	}
+    	.card-filter, .card-terlaris{
+			width: calc(100%/4);
+		}
+		.card-filter .card, .card-terlaris .card{
+			height: 350px;
+			position: relative;
+			overflow: hidden;
+		}
+		.card a{
+			position: absolute;
+			bottom: 5%;
+			left: 5%;
+			width: 90%;
+			right: 5%;
+		}
+		.card-img-top{
+			height: 130px;
+		}
+	}
+	@media screen and (min-width: 993px){
+		.card-terlaris, .card-filter{
+			width: calc(100%/6);
+		}
+		h6.card-title{
+			font-size: 80%;
+			font-weight: bold;
+		}
+		.textpromo{
+			font-size: 80%;
+		}
+		#content{
+    		padding-top: 180px;
+    	}
+    	.card-filter .card, .card-terlaris .card{
+			height: 370px;
+			position: relative;
+			overflow: hidden;
+		}
+		.card a{
+			position: absolute;
+			bottom: 5%;
+			left: 5%;
+			width: 90%;
+			right: 5%;
+		}
+		.card-img-top{
+			height: 125px;
+		}
+	}
+	.kategori-home h6{
+		font-size: 80%;
+		font-weight: bold;
+	}
+
+	.textpromo small{
+		font-size: 70%;
+		text-decoration: line-through;
+	}
+/* End Home */
+    	
+
+
+/* Profil */
+	@media screen and (max-width: 767px){
+		.top-profil h4{
+			font-size: 90%;
+		}
+	}
+/* End Profil */
+
+
+/* Produk */
+	@media screen and (max-width: 768px)
+	{
+		.topshow h3{
+			font-size: 80%;
+			font-weight: bold;
+		}
+	}
+/* End produk */
+.owl-menu{
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.owl-menu img{
+	border-radius: 10px;
+	margin: 5px;
+}
+.menu-change ul li{
+		display: inline-block;
+	}
+	@media screen and (max-width: 567px){
+		.main-property{
+			margin-top: 15%;
+		}
+	}
